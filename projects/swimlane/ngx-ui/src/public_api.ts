@@ -60,6 +60,11 @@ export * from './lib/components/calendar/calendar-view.enum';
 
 export * from './lib/components/card/card.module';
 export * from './lib/components/card/card.component';
+export * from './lib/components/card/card-header.component';
+export * from './lib/components/card/card';
+export * from './lib/components/card/card-avatar/card-avatar.component';
+export * from './lib/components/card/card-placeholder/card-placeholder.component';
+export * from './lib/components/card/card-footer.component';
 
 export * from './lib/components/checkbox/checkbox.module';
 export * from './lib/components/checkbox/checkbox.component';
@@ -72,6 +77,10 @@ export * from './lib/components/date-time/date-time.module';
 export * from './lib/components/date-time/date-time.component';
 export * from './lib/components/date-time/date-time-type.enum';
 export * from './lib/components/date-time/date-like.type';
+
+export * from './lib/directives/directives.module';
+export * from './lib/components/dialog/large-format/components/large-format-dialog-footer/large-format-dialog-footer.component';
+export * from './lib/components/drawer/dialog-drawer-content/dialog-drawer-content.component';
 
 export * from './lib/components/dialog/dialog.module';
 export * from './lib/components/dialog/dialog.component';

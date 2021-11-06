@@ -17,13 +17,13 @@
     "allowSyntheticDefaultImports": true
   },
   "angularCompilerOptions": {
+    "compilationMode": "partial",
     "skipTemplateCodegen": true,
     "strictMetadataEmit": true,
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true,
     "enableResourceInlining": true,
-    "preserveWhitespaces": true,
-    "enableIvy": false
+    "preserveWhitespaces": true
   },
   "exclude": ["src/test.ts", "**/*.spec.ts"]
 }
