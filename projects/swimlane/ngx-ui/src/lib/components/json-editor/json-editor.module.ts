@@ -22,8 +22,7 @@ import {
   ArrayNodeComponent
 } from './json-editor/json-editor.component';
 
-import { JsonEditorFlatComponent } from './json-editor-flat/json-editor-flat.component';
-import { JsonEditorNodeFlatComponent } from './json-editor-flat/json-editor-node-flat/json-editor-node-flat.component';
+import { JsonEditorFlatComponent, JsonEditorNodeFlatComponent } from './json-editor-flat/json-editor-flat.component';
 import { ArrayNodeFlatComponent } from './json-editor-flat/json-editor-node-flat/node-types/array-node-flat/array-node-flat.component';
 import { ObjectNodeFlatComponent } from './json-editor-flat/json-editor-node-flat/node-types/object-node-flat/object-node-flat.component';
 import { PropertyConfigComponent } from './json-editor-flat/json-editor-node-flat/node-types/property-config/property-config.component';
