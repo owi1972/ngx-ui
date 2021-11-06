@@ -133,7 +133,7 @@ export * from './lib/components/input/input-autosize.directive';
 export * from './lib/components/json-editor/json-editor.module';
 export * from './lib/components/json-editor/schema-validator.service';
 export * from './lib/components/json-editor/json-editor/json-editor.component';
-export * from './lib/components/json-editor/json-editor/json-editor-node/json-editor-node.component';
+
 export * from './lib/components/json-editor/json-editor/json-editor-node/node-types/array-node/array-node.component';
 export * from './lib/components/json-editor/json-editor/json-editor-node/node-types/object-node/object-node.component';
 export * from './lib/components/json-editor/json-editor-flat/json-editor-flat.component';
