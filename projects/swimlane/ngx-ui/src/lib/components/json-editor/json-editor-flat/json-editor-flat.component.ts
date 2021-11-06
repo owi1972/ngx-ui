@@ -549,3 +549,38 @@ export class ObjectNodeFlatComponent extends ObjectNode implements OnInit, OnCha
     }
   }
 }
+
+@Component({
+  selector: 'ngx-json-editor-node-info',
+  templateUrl: './json-editor-node-flat/node-types/node-info/node-info.component.html',
+  styleUrls: ['./json-editor-node-flat/node-types/node-info/node-info.component.scss'],
+  encapsulation: ViewEncapsulation.None
+})
+export class JsonEditorNodeInfoComponent {
+  @Input()
+  nameEditable = false;
+
+  @Input()
+  title: string;
+
+  @Input()
+  propertyName: string;
+
+  @Input()
+  description: string;
+
+  @Input()
+  type: string;
+
+  @Input()
+  examples: string[];
+
+  @Input()
+  compressed = false;
+
+  @Output() propertyNameChange = new EventEmitter<string>();
+
+  updatePropertyName(name: string) {
+    this.propertyNameChange.emit(name);
+  }
+}

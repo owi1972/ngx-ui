@@ -26,12 +26,12 @@ import {
   JsonEditorFlatComponent,
   JsonEditorNodeFlatComponent,
   ArrayNodeFlatComponent,
-  ObjectNodeFlatComponent
+  ObjectNodeFlatComponent,
+  JsonEditorNodeInfoComponent
 } from './json-editor-flat/json-editor-flat.component';
 import { PropertyConfigComponent } from './json-editor-flat/json-editor-node-flat/node-types/property-config/property-config.component';
 import { OrderableInputsListComponent } from './json-editor-flat/orderable-inputs-list/orderable-inputs-list.component';
 import { ObjectValuesPipe } from './object-values.pipe';
-import { JsonEditorNodeInfoComponent } from './json-editor-flat/json-editor-node-flat/node-types/node-info/node-info.component';
 
 @NgModule({
   declarations: [
