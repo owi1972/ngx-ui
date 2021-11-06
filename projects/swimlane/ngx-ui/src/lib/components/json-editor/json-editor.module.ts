@@ -15,9 +15,12 @@ import { ToggleModule } from '../toggle/toggle.module';
 import { CheckboxModule } from '../checkbox/checkbox.module';
 import { SelectModule } from '../select/select.module';
 
-import { JsonEditorComponent, JsonEditorNodeComponent, ObjectNodeComponent } from './json-editor/json-editor.component';
-
-import { ArrayNodeComponent } from './json-editor/json-editor-node/node-types/array-node/array-node.component';
+import {
+  JsonEditorComponent,
+  JsonEditorNodeComponent,
+  ObjectNodeComponent,
+  ArrayNodeComponent
+} from './json-editor/json-editor.component';
 
 import { JsonEditorFlatComponent } from './json-editor-flat/json-editor-flat.component';
 import { JsonEditorNodeFlatComponent } from './json-editor-flat/json-editor-node-flat/json-editor-node-flat.component';
