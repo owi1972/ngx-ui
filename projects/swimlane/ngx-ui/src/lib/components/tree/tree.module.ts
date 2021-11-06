@@ -2,8 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { TreeComponent } from './tree.component';
-import { TreeNodeComponent } from './tree-node.component';
+import { TreeComponent, TreeNodeComponent } from './tree.component';
 
 @NgModule({
   declarations: [TreeComponent, TreeNodeComponent],

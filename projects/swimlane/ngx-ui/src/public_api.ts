@@ -235,7 +235,6 @@ export * from './lib/components/tooltip/show-types.enum';
 
 export * from './lib/components/tree/tree.module';
 export * from './lib/components/tree/tree.component';
-export * from './lib/components/tree/tree-node.component';
 export * from './lib/components/tree/tree-node.model';
 
 export * from './lib/components/tip/tip.module';
