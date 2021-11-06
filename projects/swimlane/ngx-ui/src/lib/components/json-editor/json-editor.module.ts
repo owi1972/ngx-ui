@@ -25,9 +25,9 @@ import {
 import {
   JsonEditorFlatComponent,
   JsonEditorNodeFlatComponent,
-  ArrayNodeFlatComponent
+  ArrayNodeFlatComponent,
+  ObjectNodeFlatComponent
 } from './json-editor-flat/json-editor-flat.component';
-import { ObjectNodeFlatComponent } from './json-editor-flat/json-editor-node-flat/node-types/object-node-flat/object-node-flat.component';
 import { PropertyConfigComponent } from './json-editor-flat/json-editor-node-flat/node-types/property-config/property-config.component';
 import { OrderableInputsListComponent } from './json-editor-flat/orderable-inputs-list/orderable-inputs-list.component';
 import { ObjectValuesPipe } from './object-values.pipe';
