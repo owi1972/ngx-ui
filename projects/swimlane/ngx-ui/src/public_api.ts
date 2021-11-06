@@ -135,7 +135,6 @@ export * from './lib/components/json-editor/schema-validator.service';
 export * from './lib/components/json-editor/json-editor/json-editor.component';
 export * from './lib/components/json-editor/json-editor-flat/json-editor-flat.component';
 
-export * from './lib/components/json-editor/json-editor-flat/json-editor-node-flat/node-types/array-node-flat/array-node-flat.component';
 export * from './lib/components/json-editor/json-editor-flat/json-editor-node-flat/node-types/object-node-flat/object-node-flat.component';
 export * from './lib/components/json-editor/json-editor-flat/json-editor-node-flat/node-types/property-config/property-config.component';
 export * from './lib/components/json-editor/json-editor-flat/orderable-inputs-list/orderable-inputs-list.component';
