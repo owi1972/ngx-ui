@@ -75,3 +75,21 @@ export class JsonEditorNodeComponent extends JsonEditorNode implements OnInit {
     }
   }
 }
+
+import { ObjectNode } from '../node-types/object-node.component';
+
+@Component({
+  selector: 'ngx-json-object-node',
+  templateUrl: './json-editor-node/node-types/object-node/object-node.component.html',
+  styleUrls: ['./json-editor-node/node-types/object-node/object-node.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class ObjectNodeComponent extends ObjectNode {
+  @Input() isDuplicated = false;
+
+  @Input() passwordToggleEnabled = false;
+
+  constructor(protected cdr: ChangeDetectorRef) {
+    super(cdr);
+  }
+}
